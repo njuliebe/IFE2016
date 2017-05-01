@@ -65,9 +65,17 @@ aside form {
     margin: 15px 0;
 }
 
-p.tip {
-    font-size: 12px;
+
+form p {
+    margin-left:35%;
+    padding-left:15px;
+    font-size:12px;
     color: #aaa;
+}
+
+form div {
+    font-size: 14px;
+    margin:15px 0;
 }
 
 form label {
@@ -75,4 +83,16 @@ form label {
     text-align: right;
     width: 35%;
     padding-right: 15px;
+}
+
+form .submitButton {
+    width:100%;
+    background-color: #128fdc;
+    color: white;
+    border-radius :10px;
+    height: 40px;
+}
+
+form .submitButton:hover{
+    background-color: #0063dc;
 }
